@@ -33,6 +33,12 @@ set(OPENFHE_VERSION ${OPENFHE_VERSION_MAJOR}.${OPENFHE_VERSION_MINOR}.${OPENFHE_
 set(CMAKE_CXX_STANDARD 17)
 set(CXX_STANDARD_REQUIRED ON)
 
+##FL
+set(CMAKE_CROSSCOMPILING 1)
+set(RUN_HAVE_STD_REGEX 0)
+set(RUN_HAVE_POSIX_REGEX 0)
+
+
 #--------------------------------------------------------------------
 # Build options
 #--------------------------------------------------------------------
